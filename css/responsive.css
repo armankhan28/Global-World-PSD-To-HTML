@@ -1,0 +1,105 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+ .container{
+    width: 970px;
+ }
+.lg-12{
+    width: 100%;
+}
+.lg-3{
+    width: 25%;
+}
+.lg-9{
+    width: 75%;
+}
+.logo{
+    text-align: center;
+}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+     }
+     .md-12{
+        width: 100%;
+     }
+     .md-3{
+        width: 25%;
+    }
+    .md-9{
+        width: 75%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .language{
+        display: none;
+    }
+    .menu nav ul li{
+        margin-right: 10px;
+    }
+    .single-service{
+        padding: 20px;
+    }
+    .single-service a.btn{
+        margin-right: 0px;
+    }
+    .advertisers-text{
+        padding-top: 100px;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+ .container{
+    width: 100%;
+    padding: 0 15px;
+ }
+
+ .header-button a {
+    padding: 20px 19px;
+ }
+ .col-4{
+    width: 100%;
+ }
+ .col-3{
+    width: 100%;
+ }
+ .chose-wrapper{
+    margin-bottom: 30px;
+ }
+ .col-6{
+    width: 100%;
+ }
+ .advertisers-text {
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+.sm-4{
+    width: 33.33%;
+ }
+ .sm-8{
+    width: 66.66%;
+ }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container{
+        width: 550px;
+     }
+}
+
+
