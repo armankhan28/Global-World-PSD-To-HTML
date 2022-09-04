@@ -90,9 +90,17 @@
 .sm-4{
     width: 33.33%;
  }
+ .sm-2{
+    width: 50%;
+ }
  .sm-8{
     width: 66.66%;
  }
+ .slider-inner h1 {
+    
+    font-size: 50px;
+    
+}
 }
  
 /* SM Small Device :550px. */
