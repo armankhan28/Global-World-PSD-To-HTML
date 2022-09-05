@@ -347,6 +347,26 @@ body{
     margin-top: 30px;
 }
 
+.map-area{
+    position: relative;
+}
+.contact-info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    padding: 100px;
+    top: 50%;
+    text-align: center;
+    width: 950px;
+    transform: translateY(-50%);
+
+}
+
+
+
+
 .copyright{
     text-align: center;
     padding: 60px 0;
