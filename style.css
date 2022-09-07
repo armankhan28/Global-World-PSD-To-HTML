@@ -140,7 +140,7 @@ body{
     margin-bottom: 25px;
 }
 .slider-inner > a{
-    background: #f3a032;
+    background: linear-gradient(to left, #f39f31, #de4627);
     color: #fff;
     display: inline-block;
     font-size: 14px;

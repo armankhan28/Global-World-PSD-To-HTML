@@ -112,6 +112,10 @@
         display: none;
     }
 
+.header-button{
+    display: none;
+}
+
 }
  
 /* SM Small Device :550px. */
@@ -120,5 +124,3 @@
         width: 550px;
      }
 }
-
-

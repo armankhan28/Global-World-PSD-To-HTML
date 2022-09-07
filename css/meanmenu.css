@@ -18,11 +18,13 @@ a.meanmenu-reveal {
 	float: left;
 	width: 100%;
 	position: relative;
-	background: #0c1923;
+	background: transparent;
 	padding: 4px 0;
 	min-height: 42px;
 	z-index: 999999;
-	margin-top: 29px;
+	margin-top: -45px;
+
+	
 }
 
 .mean-container a.meanmenu-reveal {
