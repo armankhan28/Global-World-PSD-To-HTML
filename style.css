@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 15px;
 }
@@ -50,86 +53,6 @@ body{
 }
 
 
-/*  Mobile Menu  */
-.wrapper button {
-	position: absolute;
-	border: none;
-	background: none;
-	top: 72PX;
-	right: 18px;
-}
-
-.wrapper button img{
-    width:23px;
-}
-
-.mobile-nav {
-	position: fixed;
-	background: #ffaf75;
-	width: 100%;
-    height: 100%;
-    transform: translateX(-100%);
-    z-index: 2;
-}
-
-
-.mobile-wrapper {
-    position: fixed;
-    width: 50%;
-    height: 50%;
-    top: 74px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
-  .mobile-wrapper img {
-	width: 200px;
-	margin-left: -26px;
-	margin-bottom: 30px;
-}
-  .mobile-wrapper a {
-    display: block;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 26px 0px;
-  }
-
-  .open {
-	transform: translateX(0%);
-	transition: .5s;
-}
-  .fade {
-	transform: translateX(-100%);
-	transition: .5s;
-}
-
-.nav-menu ul{
-    padding: 0;
-	margin: 0;
-	width: 100%;
-	list-style-type: none;
-}
-.nav-menu ul li{
-    position: relative;
-	float: left;
-	width: 100%
-}
-.nav-menu ul li a{
-    display: block;
-	float: left;
-	width: 90%;
-	padding: .7em 5%;
-	margin: 0;
-	text-align: center;
-	color: #282828;
-	text-decoration: none;
-	text-transform: uppercase;
-    transition: .3s;
-}
-.nav-menu ul li a:hover{
-    color: #fff;
-    border-bottom: 1px solid #383838;
-}
 
 /* header */
 
@@ -271,10 +194,10 @@ body{
     font-size: 30px;
     font-weight: 700;
 }
-.single-service p{
-    color: #7d7d7d;
-    font-size: 14px;
-    line-height: 24px;
+.single-service p {
+	color: #7d7d7d;
+	font-size: 15px;
+	line-height: 24px;
 }
 .single-service a{
     color: #444;
@@ -357,6 +280,7 @@ body{
 }
 .advertisers-area{
     padding: 100px 0;
+    z-index: 1;
 }
 .advertisers-text{
     padding-top: 270px;
@@ -494,3 +418,23 @@ body{
     color: #f3a032;
 }
 
+.sticky {
+	position: fixed;
+	left: 0;
+	right: 0;
+	background: #f3a948;
+	padding: 20px 0;
+    z-index: 2;
+}
+#scrollUp {
+	background: #f39f31;
+	height: 35px;
+	width: 35px;
+	right: 20px;
+	bottom: 70px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 34px;
+}

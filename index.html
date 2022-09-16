@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Global-Media</title>
+    <link rel="icon" type="image/x-icon" href="/img/fav.png">
     <!--  -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,29 +16,8 @@
     <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
-    <div class="wrapper">
-      <!-- /* ========= Mobile Menu Part Start ===========  */ -->
-      <button class="hamberger"><img src="./img/hamberger.svg" alt="hamberger"></button>
-      <div class="mobile-nav">
-          <button class="times"><img src="./img/times.svg" alt=""></button>
-          <div class="mobile-wrapper">
-              <div class="logo">
-                  <img src="./img/logo.png" alt="">
-              </div>
-              <div class="nav-menu">
-                <nav>
-                  <ul>
-                      <li><a href="#">Adventures</a></li>
-                      <li><a href="#">Publishers</a></li>
-                      <li><a href="#">Agenciens</a></li>
-                      <li><a href="#">Company</a></li>
-                      <li><a href="#">Contact</a></li>
-                  </ul>
-              </nav>
-              </div>
-          </div>
-
-      </div>
+    
+ 
     <header>
       <!-- start header area -->
       <div class="header-area">
@@ -50,7 +30,7 @@
             </div>
             <div class="col-6 lg-9 md-9 sm-8 d-sm-none">
               <div class="menu">
-                <nav>
+                <nav id="mobile-menu-active">
                   <ul>
                     <li>
                       <a href="#">Adventures</a>
@@ -70,6 +50,7 @@
                 </nav>
               </div>
             </div>
+            
             <div class="col-3 lg-3 md-3 sm-8">
               <div class="header-right">
                 <div class="header-button">
@@ -82,8 +63,10 @@
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
+        <div class="mobile-menu"></div>
       </div>
     </header>
     <!-- end header area -->
@@ -427,6 +410,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
     <script src="js/active.js"></script>
 
   </body>

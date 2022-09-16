@@ -140,7 +140,7 @@
     display: none;
 }
 .slider-inner > a {
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: 700;
 	padding: 16px 25px;
 }
@@ -191,6 +191,23 @@
 }
 .fact-area {
 	padding: 40px 0;
+}
+.fact-area {
+	padding: 10px 0;
+}
+.how-we-wrok {
+	padding: 10px 6px;
+}
+.col-2 {
+	padding: 0px 7px;
+}
+.download-btn {
+	margin-top: 25px;
+	display: flex;
+	margin-left: 18px;
+}
+.header-area {
+	width: 100%;
 }
 }
  

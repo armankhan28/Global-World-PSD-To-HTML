@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    $('#mobile-menu-active').meanmenu({
+        meanMenuContainer: '.mobile-menu',
+    });
+
 
     $('.advertiser-active').owlCarousel({
         loop:true,
@@ -23,16 +27,27 @@ $(document).ready(function(){
         type: 'iframe'
         
       });
+
+      
 })
 
-// mobile munu code 
-$(document).ready(function () {
-    $(".hamberger").click(function () {
-           $(".mobile-nav").addClass("open");
-           $(".mobile-nav").removeClass("fade");
-       });
-       $(".times").click(function () {
-         $(".mobile-nav").removeClass("open");
-         $(".mobile-nav").addClass("fade");
-       });
-   })
+   $(window).on('scroll', function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 5) {
+        $(".header-area").removeClass("sticky");
+    } else {
+        $(".header-area").addClass("sticky");
+    }
+});
+
+// scrollToTop
+$.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: '<i class="fa-solid fa-arrow-turn-up"></i>', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+});
