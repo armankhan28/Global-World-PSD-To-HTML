@@ -1,11 +1,6 @@
 $(document).ready(function(){
 
 
-    $('#mobile-menu-active').meanmenu({
-        meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "767"
-    });
-
     $('.advertiser-active').owlCarousel({
         loop:true,
         margin:0,
@@ -29,3 +24,15 @@ $(document).ready(function(){
         
       });
 })
+
+// mobile munu code 
+$(document).ready(function () {
+    $(".hamberger").click(function () {
+           $(".mobile-nav").addClass("open");
+           $(".mobile-nav").removeClass("fade");
+       });
+       $(".times").click(function () {
+         $(".mobile-nav").removeClass("open");
+         $(".mobile-nav").addClass("fade");
+       });
+   })

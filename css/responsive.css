@@ -60,6 +60,15 @@
     .contact-info{
         width: 800px;
     }
+    .hamberger{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .advertiser-active .owl-nav button{
+        display: none;
+    }
 
 }
 
@@ -118,7 +127,71 @@
 .header-button{
     display: none;
 }
+.d-sm-none {
+    display: none;
+}
+.hamberger{
+    display:block;
+}
+.header-area{
+    width: 50%;
+}
+.advertiser-active .owl-nav button{
+    display: none;
+}
+.slider-inner > a {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 16px 25px;
+}
+.service-area {
+	padding-bottom: 8px;
+}
+.section-title h1 {
+	font-size: 40px;
+}
+.section-title p {
+	font-size: 14px;
+}
+.section-title {
+	margin-bottom: 30px;
+}
+.chose-wrapper img {
+	margin-bottom: 10px;
+}
+.why-chose-area {
+	padding-bottom: 0px;
+}
+.how-we-wrok {
+	padding: 10px 0;
+}
+.section-title h1 {
+	font-size: 28px;
+}
+.advertisers-area {
+	padding: 25px 0;
+}
+.advertisers-text h2 {
+	font-size: 35px;
+}
+.advertisers-text p {
+	color: #767676;
+	font-size: 14px;
+	line-height: 25px;
+}
+.advertisers-area {
+	padding: 25px 0;
+}
 
+.agencies-area {
+	padding: 25px 0;
+}
+.video-area {
+	padding: 35px 0;
+}
+.fact-area {
+	padding: 40px 0;
+}
 }
  
 /* SM Small Device :550px. */
