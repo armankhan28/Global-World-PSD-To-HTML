@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     $('#mobile-menu-active').meanmenu({
         meanMenuContainer: '.mobile-menu',
+        meanScreenWidth: "767git"
     });
 
 
