@@ -69,6 +69,7 @@
     .advertiser-active .owl-nav button{
         display: none;
     }
+    
 
 }
 
@@ -193,10 +194,10 @@
 	padding: 40px 0;
 }
 .fact-area {
-	padding: 10px 0;
+	padding: 25px 0;
 }
 .how-we-wrok {
-	padding: 10px 6px;
+	padding: 25px 6px;
 }
 .col-2 {
 	padding: 0px 7px;
@@ -208,6 +209,13 @@
 }
 .header-area {
 	width: 100%;
+}
+.header-area {
+	width: 100%;
+	left: 0;
+	right: 0;
+	background: #f3a948;
+	padding: 20px 0;
 }
 }
  
