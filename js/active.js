@@ -10,7 +10,7 @@ $(document).ready(function(){
         loop:true,
         margin:0,
         nav:true,
-        navText:['<i class="fa-sharp fa-solid fa-chevron-left"></i>','<i class="fa-sharp fa-solid fa-chevron-right"></i>'],
+        
         responsive:{
             0:{
                 items:1
@@ -39,7 +39,7 @@ $(document).ready(function(){
     } else {
         $(".header-area").addClass("sticky");
     }
-});
+   });
 
 // scrollToTop
 $.scrollUp({
@@ -52,3 +52,4 @@ $.scrollUp({
     scrollText: '<i class="fa-solid fa-arrow-turn-up"></i>', // Text for element
     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 });
+

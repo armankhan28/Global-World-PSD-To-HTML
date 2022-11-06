@@ -436,6 +436,8 @@ body{
 .social a:hover{
     color: #f3a032;
 }
+
+
 /* sticky  */
 .sticky {
 	position: fixed;
@@ -445,7 +447,7 @@ body{
 	padding: 20px 0;
     z-index: 2;
 }
-/* scrollup */
+/* scrollUp */
 #scrollUp {
 	background: #f39f31;
 	height: 35px;
